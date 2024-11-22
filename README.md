@@ -26,14 +26,16 @@ The **Intelligent Antivirus File Manager** is an innovative software tool that c
 ## Installation  
 1. **Clone the Repository**:  
    ```bash  
-   git clone https://github.com/<your-username>/<antivirus-repo>.git  
-   cd <antivirus-repo>  
+   git clone https://github.com/kosinkothegreat/anti-virus.git  
+   cd <anti-virus>  
    ```  
 
 2. **Install Dependencies**:  
    Use the provided `requirements.txt` file to set up necessary libraries:  
-   ```bash  
-   pip install -r requirements.txt  
+   ```bash
+   
+pip install cryptography
+pip install python
    ```  
 
 3. **Run the Application**:  
